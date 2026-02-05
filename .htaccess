@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^serenitypath\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.serenitypath\.com$
+RewriteRule ^/?$ "https\:\/\/serenitypath\.com\/" [R=301,L]
+
