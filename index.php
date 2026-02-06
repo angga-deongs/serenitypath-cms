@@ -34,6 +34,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" /> -->
         <link rel="stylesheet" href="app.css" />
+        <link rel="stylesheet" href="custom.css" />
 
         <script src="https://tympanus.net/Development/DistortionHoverEffect/js/imagesloaded.pkgd.min.js"></script>
         <script src="https://tympanus.net/Development/DistortionHoverEffect/js/three.min.js"></script>
@@ -123,7 +124,7 @@
                     <div class="menuMobile-content s">
                         <div class="header">
                             <div class="header-content s">
-                                <a href="index.php" class="logo" aria-label="Home Page">
+                                <a href="index.php" class="logo sp-logo" aria-label="Home Page">
                                     <svg class="icon cover"><use xlink:href="#logo"></use></svg>
                                 </a>
                                 <div class="close">
