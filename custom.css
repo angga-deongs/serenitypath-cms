@@ -2,16 +2,17 @@
 /* Custom CSS for SerenityPath                                                */
 /* -------------------------------------------------------------------------- */
 
+/* header */
 .header .sp-logo {
   display: block;
   width: 220px;
   height: 40px;
 }
-.header .sp-logo svg {
-  object-position: left center;
-}
 .header .sp-menu-link {
   font-size: 1.6rem;
+  padding: 2px 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 .header .menu-item.-active .menu-link:before,
 .header .menu-item:hover .menu-link:before {
@@ -30,4 +31,9 @@
     height: 30px;
     margin-top: -6px;
   }
+}
+
+/* hero */
+.hero.-full .sp-hero-title {
+  padding-top: 16rem;
 }

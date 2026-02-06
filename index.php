@@ -125,9 +125,9 @@
 
                 <section class="hero -full" data-smooth-item="data-smooth-item" style="background: #E8E5E0;">
                     <div class="hero-content s" style="background: #E8E5E0;">
-                        <div class="hero-title">
+                        <div class="hero-title sp-hero-title">
                             <div data-plane="fbo"></div>
-                            <h1 class="t2 title-line" data-split="lines,words,chars" style="font-size: 80px;">Reimagining the<br />Path to Recovery</h1>
+                            <h1 class="t2 title-line" data-split="lines,words,chars" style="font-size: 80px;">In-Home Medical<br/> Detox & Personalized<br/> Recovery Planning</h1>
                             <!-- <h2 class="t2 title-line" data-split="lines,words,chars">into medicine.</h2> -->
                         </div>
                     </div>
@@ -143,42 +143,6 @@
                             ></video>
                         </div>
                     </div>
-                </section>
-                <section class="marquee" data-smooth-item="data-smooth-item">
-                    <div class="marquee-content">
-                        <h2 class="t4 marquee-title">
-                            <span class="marquee-container"><span class="marquee-line">Unwavering focus on personalized care in a familiar and discrete environment. </span><span class="marquee-line">Unwavering focus on personalized care in a familiar and discrete environment. </span><span class="marquee-line">Unwavering focus on personalized care in a familiar and discrete environment. </span></span>
-                        </h2>
-                        <div class="p3 marquee-description">
-                            <span>Experience an exclusive, confidential, and cutting-edge approach designed specifically for our high-profile clients seeking exceptional and private services. Our dedicated care managers, in collaboration with an esteemed medical team, will deliver personalized care in the convenience of your own home, minimizing any disruption to your daily life.</span>
-                        </div>
-                    </div>
-                </section>
-                <section id="personalized" class="textblock -message -three" data-smooth-item="data-smooth-item">
-                    
-                    <!-- <video src="video/pasir.mp4" class="cover loaded" autoplay loop muted playsinline style="height: 100%;"></video> -->
-                    <div class="container-pasir">
-
-                        <div class="personalized-word">
-                            <p class="w1">Patient's Unique Case</p>
-                            <p class="w2">Standard Recovery Plan</p>
-                            <p class="w3">Personalized Plan</p>
-                        </div>
-
-                        <div class="personalized-info">
-                            <p class="t5 mobile-personalized">
-                                Personalized Care:<br />
-                                Every path is different
-                            </p>
-
-                            <div class="p1 personalized-description">
-                                <span>The team will collaborate with our client’s throughout the process, continuously adapting and refining a unique, flexible plan for optimal success.</span>
-                            </div>
-                        </div>
-
-                        <img src="images/pasir.gif" alt="" style="width: 100%;">
-                    </div>
-
                 </section>
                 <section class="splitblock" data-smooth-item="data-smooth-item">
                     <div class="splitblock-content">
