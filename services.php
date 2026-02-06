@@ -130,7 +130,7 @@
                 </div>
                 <header class="header">
                     <div class="header-content s">
-                        <a href="index.php" class="logo" aria-label="Home Page">
+                        <a href="index.php" class="logo sp-logo" aria-label="Home Page">
                             <svg class="icon cover"><use xlink:href="#logo"></use></svg>
                         </a>
                         <nav class="menu">
