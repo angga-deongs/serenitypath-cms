@@ -1,5 +1,33 @@
-header .sp-logo {
+/* -------------------------------------------------------------------------- */
+/* Custom CSS for SerenityPath                                                */
+/* -------------------------------------------------------------------------- */
+
+.header .sp-logo {
   display: block;
   width: 220px;
   height: 40px;
+}
+.header .sp-logo svg {
+  object-position: left center;
+}
+.header .sp-menu-link {
+  font-size: 1.6rem;
+}
+.header .menu-item.-active .menu-link:before,
+.header .menu-item:hover .menu-link:before {
+  transform: scale(1) translateY(-50%);
+}
+.header .sp-menu-link::before {
+  margin-top: 0;
+  top: 50%;
+  transform: scale(0) translateY(-50%);
+  transform-origin: top center;
+}
+
+@media screen and (max-width: 767.98px) {
+  .header .sp-logo {
+    width: 140px;
+    height: 30px;
+    margin-top: -6px;
+  }
 }

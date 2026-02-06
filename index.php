@@ -34,6 +34,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" /> -->
         <link rel="stylesheet" href="app.css" />
+        <link rel="stylesheet" href="custom.css" />
 
         <script src="https://tympanus.net/Development/DistortionHoverEffect/js/imagesloaded.pkgd.min.js"></script>
         <script src="https://tympanus.net/Development/DistortionHoverEffect/js/three.min.js"></script>
@@ -119,50 +120,9 @@
         </svg>
         <main data-router-wrapper="data-router-wrapper">
             <div class="page is-home -kelp" data-router-view="page" data-smooth="data-smooth">
-                <div class="menuMobile">
-                    <div class="menuMobile-content s">
-                        <div class="header">
-                            <div class="header-content s">
-                                <a href="index.php" class="logo" aria-label="Home Page">
-                                    <svg class="icon cover"><use xlink:href="#logo"></use></svg>
-                                </a>
-                                <div class="close">
-                                    <div class="line"></div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <nav class="menu">
-                            <ul class="menu-list">
-                                <li class="menu-item"><a href="index.php" class="menu-link t5">Serenity Path</a></li>
-                                <li class="menu-item"><a href="services.php" class="menu-link t5">Supplementary Care</a></li>
-                                <li class="menu-item"><a href="contact.php" class="menu-link t5">Contact</a></li>
-                            </ul>
-                            <!-- <ul class="menu-list">
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Career Opportunities</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Request Info</a></li>
-                            </ul> -->
-                        </nav>
-                    </div>
-                </div>
-                <header class="header">
-                    <div class="header-content s">
-                        <a href="index.php" class="logo sp-logo" aria-label="Home Page">
-                            <svg class="icon cover"><use xlink:href="#logo_green"></use></svg>
-                        </a>
-                        <nav class="menu">
-                            <ul class="menu-list">
-                                <li class="menu-item"><a href="index.php" class="menu-link p">Serenity Path</a></li>
-                                <li class="menu-item"><a href="services.php" class="menu-link p">Supplementary Care</a></li>
-                                <li class="menu-item"><a href="contact.php" class="menu-link p">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <div class="burger">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
-                    </div>
-                </header>
+
+                <?php include ('components/header.php'); ?>
+
                 <section class="hero -full" data-smooth-item="data-smooth-item" style="background: #E8E5E0;">
                     <div class="hero-content s" style="background: #E8E5E0;">
                         <div class="hero-title">
@@ -343,9 +303,9 @@
                             </a>
                             <p class="p4 footer-tag">Translating science into medicine.</p>
                             <ul class="menu-list">
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Serenity Path</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Services</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Contact</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p" target="_blank" rel="noreferrer">Serenity Path</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p" target="_blank" rel="noreferrer">Services</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p" target="_blank" rel="noreferrer">Contact</a></li>
                             </ul>
                             
                         </div> -->
@@ -353,34 +313,35 @@
                             <ul class="menu-list"></ul>
                             <ul class="menu-list"></ul>
                             <!-- <ul class="menu-list">
-                                <li class="menu-item" style="margin-bottom: 20px;"><a href="#" class="menu-link p"><strong>Physical Health</strong></a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">IV Drips</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Massage</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Reflexology</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Acupuncture</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Personal chef & Nutritionist plan</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Juice cleanse</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Herbal approaches,</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Biochemical restoration</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Personal training</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Intermittent Hypoxic Hyperoxic Treatment</a></li>
+                                <li class="menu-item" style="margin-bottom: 20px;"><a href="#" class="menu-link sp-menu-link p"><strong>Physical Health</strong></a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">IV Drips</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Massage</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Reflexology</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Acupuncture</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Personal chef & Nutritionist plan</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Juice cleanse</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Herbal approaches,</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Biochemical restoration</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Personal training</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Intermittent Hypoxic Hyperoxic Treatment</a></li>
                             </ul>
                             <ul class="menu-list">
-                                <li class="menu-item" style="margin-bottom: 20px;"><a href="#" class="menu-link p"><strong>Mental Health</strong></a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Somatic Body Therapy</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">CBT & ACT</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Transcendental & mindfulness meditation training </a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Family Therapy</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p">Spiritual Counseling</a></li>
+                                <li class="menu-item" style="margin-bottom: 20px;"><a href="#" class="menu-link sp-menu-link p"><strong>Mental Health</strong></a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Somatic Body Therapy</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">CBT & ACT</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Transcendental & mindfulness meditation training </a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Family Therapy</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p">Spiritual Counseling</a></li>
                             </ul> -->
                             <ul class="menu-list">
-                                <li class="menu-item"><a href="index.php" class="menu-link p" rel="noreferrer">Serenity Path</a></li>
-                                <li class="menu-item"><a href="services.php" class="menu-link p" rel="noreferrer">Supplementary Care</a></li>
-                                <li class="menu-item" style="margin-bottom: 20px;"><a href="contact.php" class="menu-link p" rel="noreferrer">Contact</a></li>
+                                <li class="menu-item"><a href="index.php" class="menu-link sp-menu-link p" rel="noreferrer">Serenity Path</a></li>
+                                <li class="menu-item"><a href="about.php" class="menu-link sp-menu-link p" rel="noreferrer">About</a></li>
+                                <!-- <li class="menu-item"><a href="services.php" class="menu-link sp-menu-link p" rel="noreferrer">Supplementary Care</a></li> -->
+                                <li class="menu-item" style="margin-bottom: 20px;"><a href="contact.php" class="menu-link sp-menu-link p" rel="noreferrer">Contact</a></li>
 
-                                <!-- <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Career Opportunity</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Terms & Condition</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Privacy Policy</a></li> -->
+                                <!-- <li class="menu-item"><a href="#" class="menu-link sp-menu-link p" target="_blank" rel="noreferrer">Career Opportunity</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p" target="_blank" rel="noreferrer">Terms & Condition</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link sp-menu-link p" target="_blank" rel="noreferrer">Privacy Policy</a></li> -->
                             </ul>
                         </div>
                         <div class="social">

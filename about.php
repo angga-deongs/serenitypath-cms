@@ -102,6 +102,33 @@
         </svg>
         <main data-router-wrapper="data-router-wrapper">
             <div class="page page-service is-institute -kelp" data-router-view="page" data-smooth="data-smooth">
+                <div class="menuMobile">
+                    <div class="menuMobile-content s">
+                        <div class="header">
+                            <div class="header-content s">
+                                <a href="index.php" class="logo sp-logo" aria-label="Home Page">
+                                    <svg class="icon cover"><use xlink:href="#logo"></use></svg>
+                                </a>
+                                <div class="close">
+                                    <div class="line"></div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu-list">
+                                <li class="menu-item"><a href="index.php" class="menu-link t5">Serenity Path</a></li>
+                                <li class="menu-item"><a href="about.php" class="menu-link t5">About</a></li>
+                                <!-- <li class="menu-item"><a href="services.php" class="menu-link t5">Supplementary Care</a></li> -->
+                                <li class="menu-item"><a href="contact.php" class="menu-link t5">Contact</a></li>
+                            </ul>
+                            <!-- <ul class="menu-list">
+                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Career Opportunities</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Request Info</a></li>
+                            </ul> -->
+                        </nav>
+                    </div>
+                </div>
 
                 <?php include ('components/header.php'); ?>
 

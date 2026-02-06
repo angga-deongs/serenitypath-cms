@@ -102,50 +102,9 @@
         </svg>
         <main data-router-wrapper="data-router-wrapper">
             <div class="page is-institute -kelp" data-router-view="page" data-smooth="data-smooth">
-                <div class="menuMobile">
-                    <div class="menuMobile-content s">
-                        <div class="header">
-                            <div class="header-content s">
-                                <a href="index.php" class="logo sp-logo" aria-label="Home Page">
-                                    <svg class="icon cover"><use xlink:href="#logo"></use></svg>
-                                </a>
-                                <div class="close">
-                                    <div class="line"></div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <nav class="menu">
-                            <ul class="menu-list">
-                                <li class="menu-item"><a href="index.php" class="menu-link t5">Serenity Path</a></li>
-                                <li class="menu-item"><a href="services.php" class="menu-link t5">Supplementary Care</a></li>
-                                <li class="menu-item"><a href="contact.php" class="menu-link t5">Contact</a></li>
-                            </ul>
-                            <!-- <ul class="menu-list">
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Career Opportunities</a></li>
-                                <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Request Info</a></li>
-                            </ul> -->
-                        </nav>
-                    </div>
-                </div>
-                <header class="header">
-                    <div class="header-content s">
-                        <a href="index.php" class="logo sp-logo" aria-label="Home Page">
-                            <svg class="icon cover"><use xlink:href="#logo"></use></svg>
-                        </a>
-                        <nav class="menu">
-                            <ul class="menu-list">
-                                <li class="menu-item"><a href="index.php" class="menu-link p">Serenity Path</a></li>
-                                <li class="menu-item"><a href="services.php" class="menu-link p">Supplementary Care</a></li>
-                                <li class="menu-item"><a href="contact.php" class="menu-link p">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <div class="burger">
-                            <div class="line"></div>
-                            <div class="line"></div>
-                        </div>
-                    </div>
-                </header>
+
+                <?php include ('components/header.php'); ?>
+
                 <section class="hero -fixed" data-smooth-item="data-smooth-item">
                     <div class="hero-content s">
                         <div class="hero-header">
@@ -340,7 +299,8 @@
                             </ul> -->
                             <ul class="menu-list">
                                 <li class="menu-item"><a href="index.php" class="menu-link p" rel="noreferrer">Serenity Path</a></li>
-                                <li class="menu-item"><a href="services.php" class="menu-link p" rel="noreferrer">Supplementary Care</a></li>
+                                <li class="menu-item"><a href="about.php" class="menu-link p" rel="noreferrer">About</a></li>
+                                <!-- <li class="menu-item"><a href="services.php" class="menu-link p" rel="noreferrer">Supplementary Care</a></li> -->
                                 <li class="menu-item" style="margin-bottom: 20px;"><a href="contact.php" class="menu-link p" rel="noreferrer">Contact</a></li>
 
                                 <!-- <li class="menu-item"><a href="#" class="menu-link p" target="_blank" rel="noreferrer">Career Opportunity</a></li>
