@@ -1,1 +1,0 @@
-# serenitypath-integration
