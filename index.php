@@ -130,15 +130,6 @@
                             <h1 class="t2 title-line" data-split="lines,words,chars" style="font-size: 80px;">Reimagining the<br />Path to Recovery</h1>
                             <!-- <h2 class="t2 title-line" data-split="lines,words,chars">into medicine.</h2> -->
                         </div>
-                        <div class="hero-footer">
-                            <div class="hero-footer_inner">
-                                <!-- <div class="hero-block">
-                                    <div class="hero-tag"><p class="p2">One step at a time.</p></div>
-                                    <div class="hero-tag"><p class="p2">One life at a time.</p></div>
-                                </div> -->
-                                <div class="hero-description"><p class="p">One step at a time.<br />One life at a time.</p></div>
-                            </div>
-                        </div>
                     </div>
                     <div class="hero-asset">
                         <div class="asset-crop">
